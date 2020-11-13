@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production",
+    "build": "webpack",
     "server": "json-server --watch db.json --port 3003",
     "dev": "concurrently --kill-others \"npm run start\" \"npm run server\""
   },
