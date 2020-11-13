@@ -1,4 +1,3 @@
-//const themeVars = require('web-theme-vars');
 let path = require('path');
 let MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
