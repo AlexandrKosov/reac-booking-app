@@ -1,5 +1,5 @@
 //let mainServerUrl = "http://localhost:3003";
-let mainServerUrl = "https://react-booking-app.herokuapp.com/";
+let mainServerUrl = "https://react-booking-app.herokuapp.com";
 
 async function makeRequest(url, options = {}, baseUrl = mainServerUrl) {
   try {
